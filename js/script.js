@@ -9,7 +9,7 @@ inputRub.addEventListener('input', () => {
 	const request = new XMLHttpRequest();
 	//Метод Open - собирает настройки которые помогут сделать запрос, который принимает аргументы
 	//(method(get post),url(путь к серверу),async,login,pass)
-	request.open('GET', 'js1/current.json');
+	request.open('GET', 'js/current.json');
 	//HTTP заголовки
 	request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
 	//Отправка запроса
